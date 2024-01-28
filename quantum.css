@@ -1,0 +1,122 @@
+#au{
+    color:red;
+    text-decoration:underline;
+    position:absolute;
+    top:240px;
+    left:630px
+}
+
+
+.berlin{
+    height:200px;
+    width:700px;
+    position:absolute;
+    left:350px;
+    top:300px;
+    color:cornflowerblue;
+    background-color: black;
+    opacity:0.7;
+
+}
+#ione{
+    height:150px;
+    width:350px;
+    
+    position:absolute;
+    top:200px;
+    left:0px;
+}
+#itwo{
+    height:150px;
+    width:350px;
+    
+    position:absolute;
+    left:1100px;
+    top:200px;
+}
+.icons {
+    position:relative;
+top:400px;
+background-color:whitesmoke;
+color:darkmagenta;
+height:50px;
+width:200px;
+border:10px blueviolet;
+opacity:0.5;
+left:600px;
+font-size: 24px;
+border:10px blueviolet;
+}
+#tokyo{
+    position:relative;
+    left:290px;
+    display: flex;
+    flex-direction: row;
+    
+    
+    justify-content:space-between;
+    height:300px;
+    width:950px;
+    background-color: darkgray;
+    opacity: 0.8;
+    position:absolute;
+    top:620px;
+    border:10px gold solid;
+    border-radius:20px;
+    
+}
+.dabbe:nth-of-type(1){
+    height:250px;
+    width:200px;
+    background-color:bisque;
+    border: 10px;
+}
+.dabbe:nth-of-type(2){
+    height:250px;
+    width:200px;
+    background-color:bisque;
+    border: 10px;
+}
+.dabbe:nth-of-type(3){
+    height:250px;
+    width:200px;
+    background-color:bisque;
+    border: 10px;
+}
+.dabbe:nth-of-type(4){
+    height:250px;
+    width:200px;
+    background-color:bisque;
+    
+
+}
+.dabbe:hover{
+    color:antiquewhite;
+    
+    background-color:black;
+    opacity:0.6;
+    box-shadow :10px;
+}
+@media screen and (max-width: 768px) {
+    h1 {
+      font-size: 24px;
+    }
+
+    h2 {
+      font-size: 18px;
+    }
+
+    select {
+      width: 100%;
+    }
+
+    .berlin, .icons, #tokyo {
+      width: 100%;
+    }
+
+    .dabbe {
+      width: 100%;
+    }
+  }
+
+
